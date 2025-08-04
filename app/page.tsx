@@ -7,7 +7,7 @@ import Projects from '@/components/sections/Projects';
 import Contact from '@/components/sections/Contact';
 import Terminal from '@/components/interactive/Terminal';
 
-const Index = () => {
+export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground relative overflow-x-hidden">
       {/* Matrix Rain Background Effect */}
@@ -39,6 +39,4 @@ const Index = () => {
       </footer>
     </div>
   );
-};
-
-export default Index;
+}

@@ -1,64 +1,83 @@
-# Welcome to your Lovable project
+# CyberGuardian Portfolio - Next.js 14
 
-## Project info
+This is a **Next.js 14** cybersecurity portfolio with App Router showcasing ethical hacking and security development expertise.
 
-**URL**: https://lovable.dev/projects/2da287c2-96ba-4e12-a00c-3bae92cfde1c
+## 🚀 Getting Started
 
-## How can I edit this code?
+### Prerequisites
+- **Node.js 18+** (18.17 or later)
+- **npm**, **yarn**, **pnpm**, or **bun**
 
-There are several ways of editing your application.
+### Local Development Setup
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/2da287c2-96ba-4e12-a00c-3bae92cfde1c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+1. **Clone the repository:**
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
 
-**Edit a file directly in GitHub**
+2. **Install dependencies:**
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. **Run the development server:**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-**Use GitHub Codespaces**
+4. **Open your browser:**
+Navigate to [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Technologies Used
 
-## What technologies are used for this project?
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Modern UI components
+- **Framer Motion** - Animation library
+- **React Query** - Data fetching and caching
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+├── app/                    # Next.js 14 App Router
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Home page
+│   ├── globals.css        # Global styles
+│   └── providers.tsx      # Client providers
+├── components/            # React components
+│   ├── ui/               # shadcn/ui components
+│   ├── sections/         # Page sections
+│   ├── layout/           # Layout components
+│   ├── interactive/      # Interactive elements
+│   └── effects/          # Visual effects
+├── lib/                   # Utility functions
+├── hooks/                 # Custom React hooks
+├── public/               # Static assets
+└── tailwind.config.ts    # Tailwind configuration
+```
+
+## 🎨 Features
+
+- **Cyberpunk Design** - Matrix-inspired visual aesthetics
+- **Interactive Terminal** - Functional command-line interface
+- **Matrix Rain Effect** - Animated background
+- **Responsive Design** - Mobile-first approach
+- **Dark Theme** - Professional cybersecurity styling
+- **Performance Optimized** - Next.js 14 optimizations
 
 ## How can I deploy this project?
 
